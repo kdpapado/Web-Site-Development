@@ -1,0 +1,103 @@
+
+body{
+margin: 0px;
+padding: 0px;
+background-color: white;
+color: black;
+}
+
+h1{
+text-align:center;
+font-family: Lobster;
+color: black;
+font-size: 35px;
+margin-top: 30px;
+}
+
+#questions #align label img{
+	display: inline; 
+	margin: 20px 20px;
+	width: 250px; 
+	height: 250px;
+}
+
+#title{
+font-family: Lobster;
+}
+
+.align input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+
+
+.align input:active +.card-cc{opacity: .9;}
+.align input:checked +.card-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.card-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.card-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
+
+.align{
+margin-left: 25px;
+}
+#result {
+display: none;
+position: absolute;
+left: 50%;
+margin-left: -240px;
+}
+#quiz_form{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 50px;
+
+}
+
+.butt {
+    background: none repeat scroll 0 0 #ffbeef;
+    border: 2px solid #ffbeef;
+    height: 40px;
+    margin: 20px 0 0 0;
+    width: 170px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+.hide{
+display: none;
+}
+#answer{
+font-weight: bold;
+color: black;
+font-size: 14px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 20px;
+}
+.highlight {
+ color : black;
+ font-size: 20px;
+}
